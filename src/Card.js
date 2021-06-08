@@ -1,8 +1,8 @@
 
 function Card(props) {
 
-let value = props.card_value;
-let suit = props.card_suit;
+let value = props.value;
+let suit = props.suit;
 
 let link = `https://deckofcardsapi.com/static/img/${value}${suit}.png`
 
