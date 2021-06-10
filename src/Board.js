@@ -1,5 +1,6 @@
 import Card from './Card';
 import Score from './Score';
+import "./Board.css";
 
 function Board() {
 
@@ -41,7 +42,7 @@ function Board() {
   // console.log(score)
 
   return (
-    <div >
+    <div className="Board">
     <Card value={first_card_value} suit={first_card_suit}/>    
     <Card value={second_card_value} suit={second_card_suit}/>
     <Score first_val={first_card_value} second_val={second_card_value}/>    

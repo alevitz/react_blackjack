@@ -25,8 +25,8 @@ let score = 0;
 
   return (
     <div >
-    <div>Score: {score}</div>
-    {score === 21 ? <div>BLACK JACK!!!!!</div> : null}
+    <h2>Score: {score}</h2>
+    {score === 21 ? <h4>BLACK JACK!!!!!</h4> : null}
     </div>
   )
 }
